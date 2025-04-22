@@ -1,7 +1,7 @@
-# 🧠 Auto Form Submission Tool - LeLabo Perfume Website
+# 🧠 Auto Gửi Form Giả Để Làm Nhiễu Bọn Lừa Đảo
 
 ## 📌 Mục Đích
-Tự động điền và gửi biểu mẫu đặt hàng (ĐƠN GIẢ ĐỂ LÀM NHIỄU THÔNG TIN) trên trang [https://www.bluxuryperfume.org/lelabo](https://www.bluxuryperfume.org/lelabo), với thông tin hoàn toàn ngẫu nhiên: họ tên, số điện thoại, địa chỉ, sản phẩm và số lượng.
+Tự động điền và gửi biểu mẫu đặt hàng (ĐƠN GIẢ ĐỂ LÀM NHIỄU THÔNG TIN) trên trang [https://www.bluxuryperfume.org/lelabo](https://www.bluxuryperfume.org/lelabo) (LỪA ĐẢO), với thông tin hoàn toàn ngẫu nhiên: họ tên, số điện thoại, địa chỉ, sản phẩm và số lượng.
 
 ## ✅ Tính Năng
 - Random tên thật (nam/nữ, cổ điển & hiện đại)
