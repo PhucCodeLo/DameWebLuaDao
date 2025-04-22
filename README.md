@@ -25,10 +25,9 @@ pip install selenium
 ```
 
 ### 3. Cài ChromeDriver
-- Truy cập: [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/#stable chọn chromedriver win64)
+- Truy cập: https://googlechromelabs.github.io/chrome-for-testing/#stable chọn chromedriver win64
 - Tải phiên bản phù hợp với Chrome anh đang dùng
 - Giải nén, lấy file `chromedriver.exe` và đặt vào thư mục, ví dụ: `D:/chromedriver-win64/chromedriver.exe`
-- Link https://googlechromelabs.github.io/chrome-for-testing/#stable chọn chromedriver win64
 ---
 
 ## 🚀 Cách Sử Dụng
