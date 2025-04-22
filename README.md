@@ -9,7 +9,7 @@ Tự động điền và gửi biểu mẫu đặt hàng (ĐƠN GIẢ ĐỂ LÀM
 - Random địa chỉ chi tiết theo cấu trúc: số nhà, đường, phường, quận, tỉnh
 - Random sản phẩm và số lượng từ danh sách có thật
 - Tránh trùng lặp tên + SĐT + địa chỉ giữa các đơn
-- Chạy liên tục và tự động mỗi 30 giây
+- Chạy liên tục và tự động mỗi 3 giây
 
 ---
 
