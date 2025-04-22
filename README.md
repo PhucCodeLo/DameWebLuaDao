@@ -1,7 +1,7 @@
 # 🧠 Auto Form Submission Tool - LeLabo Perfume Website
 
 ## 📌 Mục Đích
-Tự động điền và gửi biểu mẫu đặt hàng trên trang [https://www.bluxuryperfume.org/lelabo](https://www.bluxuryperfume.org/lelabo), với thông tin hoàn toàn ngẫu nhiên: họ tên, số điện thoại, địa chỉ, sản phẩm và số lượng.
+Tự động điền và gửi biểu mẫu đặt hàng (ĐƠN GIẢ ĐỂ LÀM NHIỄU THÔNG TIN) trên trang [https://www.bluxuryperfume.org/lelabo](https://www.bluxuryperfume.org/lelabo), với thông tin hoàn toàn ngẫu nhiên: họ tên, số điện thoại, địa chỉ, sản phẩm và số lượng.
 
 ## ✅ Tính Năng
 - Random tên thật (nam/nữ, cổ điển & hiện đại)
@@ -28,26 +28,26 @@ pip install selenium
 - Truy cập: https://googlechromelabs.github.io/chrome-for-testing/
 - Tải phiên bản phù hợp với Chrome anh đang dùng
 - Giải nén, lấy file `chromedriver.exe` và đặt vào thư mục, ví dụ: `D:/chromedriver-win64/chromedriver.exe`
-
+- Link https://googlechromelabs.github.io/chrome-for-testing/#stable chọn chromedriver win64
 ---
 
 ## 🚀 Cách Sử Dụng
 
 ### 1. Tạo File Code
-- Tạo file `auto_form_lelabo.py`
+- Tạo file `app.py`
 - Dán toàn bộ đoạn code Python đã được cung cấp
 
 ### 2. Cấu Hình Đường Dẫn ChromeDriver
 ```python
-service = Service("D:/chromedriver-win64/chromedriver.exe")
+service = Service("D:/chromedriver-win64/chromedriver.exe") #Sửa theo ChromeDriver của bạn
 ```
 
 ### 3. Chạy Tool
 ```bash
-python auto_form_lelabo.py
+python app.py
 ```
 
-Tool sẽ tự động gửi đơn hàng mỗi 30 giây, với dữ liệu hoàn toàn mới.
+Tool sẽ tự động gửi đơn hàng mỗi 3 giây, với dữ liệu hoàn toàn mới.
 
 ---
 
@@ -59,26 +59,11 @@ Tool sẽ tự động gửi đơn hàng mỗi 30 giây, với dữ liệu hoàn
 
 ---
 
-## 🔧 Gợi Ý Nâng Cấp
-- Gửi ngẫu nhiên trong khung giờ (ví dụ 9h-17h)
-- Giao diện có nút Bắt đầu/Dừng
-- Xuất lịch sử gửi ra file CSV
-- Tự động dừng sau 100 đơn
-
----
-
 ## 🛑 Dừng Tool
 - Bấm `Ctrl + C` trong terminal để dừng thủ công
 
 ---
 
-## 📂 Gợi Ý Tổ Chức Thư Mục
-```
-AutoFormLeLabo/
-├── chromedriver.exe
-├── auto_form_lelabo.py
-├── README.md
-```
 
 ---
 
@@ -87,5 +72,4 @@ Nếu cần hỗ trợ nâng cấp thêm, vui lòng liên hệ đội dev nội 
 
 ---
 
-Chúc anh dùng tool hiệu quả!
 
